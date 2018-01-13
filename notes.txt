@@ -1,0 +1,42 @@
+
+
+java -jar -Dfile.encoding=UTF-8 target/7up-0.0.1-SNAPSHOT.jar
+
+
+
+suit 
+	enum
+
+card
+	suit, number
+
+hand
+	set of cards
+	
+deck
+	set of cards
+	
+player
+	computer bool
+	hand
+	bid
+	score
+	
+game
+	set of players
+	
+	
+	
+	
+	
+	
+	
+	game manager
+	phase?
+		bidding
+			track who bids first, who has left to bid, total bid
+		play
+			series of tricks
+			
+			
+			
