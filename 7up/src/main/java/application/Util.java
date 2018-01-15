@@ -16,4 +16,8 @@ public class Util {
 			throw new IllegalArgumentException("Card val must be between 1 and 13");
 	}
 	
+	public static boolean isEmpty(String str) {
+		return (str == null || str.isEmpty());
+	}
+	
 }
