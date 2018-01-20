@@ -28,6 +28,43 @@ game
 	
 	
 	
+	what does a round of gameplay look like
+	
+	need to track total bids
+	trick leader?
+	play always goes in round.  ie one player will play, then next player? 
+		linked list?
+		
+
+	
+
+	manager knows who goes first for a round
+	
+
+	track number of players, keep changing order?
+
+
+	static?	manager object
+	game object, passed 
+	
+	players = linked list.  getNext() returns pointer to next?
+	when hand is full (or next player = hand leader), stop and give out truck. 
+	set that player to be first.
+	
+
+	game playHand(Player firstPlayer)? 
+	
+	
+		
+	
+	getBid();
+	playCard();
+
+	pass game object to player when deciding?  tells them how many tricks left, bids and trick counts for each player.
+		
+	
+	
+	
 	
 	
 	
@@ -37,6 +74,29 @@ game
 			track who bids first, who has left to bid, total bid
 		play
 			series of tricks
+			
+			
+			
+			
+	
+
+
+	play hands 7-1-1-7
+	to play hand
+		decide who is first
+		deal
+		get bids
+		play, for number of tricks in hand
+		collect
+
+
+
+
+
+
+
+
+	
 			
 			
 			

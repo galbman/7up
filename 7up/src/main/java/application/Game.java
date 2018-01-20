@@ -22,6 +22,10 @@ public class Game {
 		for (int i = 0; i < numPlayers; i++){
 			players.add(new Player(i, ""));
 		}
+		for (int i = 0; i < numPlayers; i++) {
+			int nextIndex = (i == numPlayers - 1) ? 0 : i + 1;
+			players.get(i).setNextPlayer(players.get(nextIndex));
+		}
 		System.out.println("building deck...");
 		buildDeck();
 		System.out.println("generated deck: " + deck);
