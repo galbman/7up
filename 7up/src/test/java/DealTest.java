@@ -44,7 +44,7 @@ public class DealTest {
 				assertTrue(
 					testCard1.getSuit().getRank() < testCard2.getSuit().getRank()
 					|| (testCard1.getSuit().getRank() == testCard2.getSuit().getRank()
-						&& testCard1.getNumber() < testCard2.getNumber()));						
+						&& testCard1.getValue() < testCard2.getValue()));						
 			}
 		}
 	}

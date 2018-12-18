@@ -45,7 +45,7 @@ public class Player {
 				index = i;
 				Card checkCard = hand.get(i);
 				if (thisRank == checkCard.getSuit().getRank()) {
-					if (newCard.getNumber() < checkCard.getNumber()) {
+					if (newCard.getValue() < checkCard.getValue()) {
 						break;
 					} else {
 						index = i + 1;
